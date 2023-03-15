@@ -1,11 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 4fr;
+    height: 100vh;
+    grid-template-areas: "sidebar header" "sidebar main";
+}
+
 .sidebar {
     background-color: aqua;
+    grid-area: sidebar;
 }
 
 .header {
     background-color: crimson;
+    grid-area: header;
 }
 
 .main {
     background-color: lawngreen;
+    grid-area: main;
+    display: grid;
+    grid-template: 3fr 1fr / 1fr 1fr;
+    grid-template-areas: "projects announce" "projects trends";
+    padding: 30px;
+    max-height: 100%;
+}
+
+.Projects {
+    grid-area: projects;
+}
+
+.Announcements {
+    grid-area: announce;
+}
+
+.Trending {
+    grid-area: trends;
 }
