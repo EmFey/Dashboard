@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-weight: bolder;
 }
 
 .container {
@@ -20,6 +21,16 @@ body {
 .header {
     background-color: crimson;
     grid-area: header;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main {
