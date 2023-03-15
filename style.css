@@ -18,6 +18,11 @@ body {
     justify-content: space-between;
 }
 
+img {
+    width: 30px;
+    height: auto;
+}
+
 .header {
     background-color: crimson;
     grid-area: header;
