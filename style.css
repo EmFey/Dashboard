@@ -1,6 +1,15 @@
+* {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: medium;
+}
+
+:root {
+    --main-padding: 10px;
+  }
+
 body {
     margin: 0;
-    font-weight: bolder;
 }
 
 .container {
@@ -16,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: var(--main-padding);
 }
 
 img {
@@ -26,6 +36,7 @@ img {
 .header {
     background-color: crimson;
     grid-area: header;
+    padding: var(--main-padding);
 }
 
 .search {
@@ -42,10 +53,10 @@ img {
     background-color: lawngreen;
     grid-area: main;
     display: grid;
-    grid-template: 3fr 1fr / 3fr 1fr;
+    grid-template: 3fr 1fr / fr 1fr;
     grid-template-areas: "projects announce" "projects trends";
     gap: 20px;
-    padding: 30px;
+    padding: var(--main-padding);
     max-height: 100%;
 }
 
