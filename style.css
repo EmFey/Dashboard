@@ -79,7 +79,7 @@ button {
     background-color: #ddd6fe;
     grid-area: main;
     display: grid;
-    grid-template: 3fr 1fr / fr 1fr;
+    grid-template: 1fr 1fr / 3fr 1fr;
     grid-template-areas: "projects announce" "projects trends";
     gap: 20px;
     padding: var(--main-padding);
@@ -94,13 +94,18 @@ button {
     display: grid;
     gap: 10px;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .project {
-    border: 1px solid;
+    border-radius: 10px;
+    border-left: 7px solid orange;
     background-color: white;
     padding: var(--main-padding);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .project-name {
@@ -117,6 +122,36 @@ button {
     grid-area: announce;
 }
 
+.an-tile {
+    border-radius: 10px;
+    background-color: white;
+    padding: var(--main-padding);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.an-name {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.an-desc {
+    font-size: small;
+    font-weight: lighter;
+}
+
 .Trending {
     grid-area: trends;
+}
+
+.trend-tile {
+    border-radius: 10px;
+    background-color: white;
+    padding: var(--main-padding);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
