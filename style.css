@@ -92,12 +92,25 @@ button {
 
 .Project-Tile {
     display: grid;
-    gap: 4px;
-    padding: 4px;
-    border: 1px solid grey;
-    background-color: skyblue;
+    gap: 10px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.project {
+    border: 1px solid;
+    background-color: white;
+    padding: var(--main-padding);
+}
+
+.project-name {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.project-desc {
+    font-size: small;
+    font-weight: lighter;
 }
 
 .Announcements {
