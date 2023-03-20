@@ -21,5 +21,8 @@ This project is not done
 
 ## Lessons Learned
 
-Will let you know at the end
+The biggest lesson I learnt was that everything I learnt so far can do almost everything
+
+## LIVE
+https://emfey.github.io/Dashboard/
 
