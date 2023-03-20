@@ -160,7 +160,7 @@ button:active {
 
 .Project-Tile {
     display: grid;
-    gap: 10px;
+    gap: 30px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
