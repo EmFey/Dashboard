@@ -45,7 +45,7 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 30px;
-    border: 1px solid rgb(197, 197, 197);
+    border: 1px solid #c5c5c5;
 }
 
 .header {
@@ -53,13 +53,14 @@ img {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     position: relative;
-    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    box-shadow: 0px 2px 3px #afafaf;
     padding: var(--main-padding);
 }
 
 .search {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 input[type=text] {
@@ -69,7 +70,9 @@ input[type=text] {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     width: 500px;
-    height: 20px;
+    height: 30px;
+    border: none;
+    background-color: #cacaca;
 }
 
 .user {
@@ -157,7 +160,7 @@ button {
 
 .project-desc {
     font-size: 13px;
-    color: rgb(88, 88, 88)
+    color: #585858
 }
 
 .Announcements {
