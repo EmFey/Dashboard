@@ -35,8 +35,14 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-weight: 900;
     font-size: 30px;
+}
+
+.lined {
+    display: flex;
     align-items: center;
 }
 
@@ -97,20 +103,21 @@ input[type=text] {
 .btns {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 18px;
+    align-items: center;
 }
 
 button {
     color: white;
     background-color: #7c3aed;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
     padding: 20px;
-    font-weight: 500;
+    font-weight: bold;
     border: none;
+    width: 100px;
     margin: 10px;
 }
 
